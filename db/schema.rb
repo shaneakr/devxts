@@ -10,7 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181020054447) do
+ActiveRecord::Schema.define(version: 20181020163728) do
+
+  create_table "companies", force: :cascade do |t|
+    t.string "name"
+    t.string "email"
+    t.string "company"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.boolean "trialed"
+    t.index ["email"], name: "index_companies_on_email", unique: true
+  end
 
   create_table "waitlisted_testers", force: :cascade do |t|
     t.string "name"

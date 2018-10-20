@@ -25,7 +25,7 @@
           <li class="nav-item ">
             <a class="nav-link" href="javascript:">CONTACT</a>
           </li>
-          <li class="nav-item " style="color: white;">
+          <li class="nav-item "style="color: white;">
             <%= link_to "Get Paid To Test", home_testers_url %>
            <!-- <a class="nav-link" style="color: white;" href=>GET PAID TO TEST</a>-->
           </li>
@@ -41,26 +41,26 @@
 
       </div>
       <div class="col-12 col-md-5 mt-5 pt-5 pb-5">
-        <form class="form d-flex flex-column bg-white p-4">
+        <%= form_tag('/company/waitlist', {class:"form d-flex flex-column bg-white p-4"}) do %>
           <p class="text-center">Get started in minutes, sign up now</p>
           <label class="sr-only" for="inlineFormInputName2">Email</label>
 
           <div class="input-group input-group-sm mb-2">
             <span class="input-group-prepend" id="basic-addon1"><div class="input-group-text"><%= theme_icon_tag "email" %></div></span>
-            <input type="text" class="form-control" id="inlineFormInputName2" placeholder="Your Email">
+            <input type="email" name="email" class="form-control" id="inlineFormInputName2" placeholder="Your Email">
           </div>
 
-          <label class="sr-only" for="inlineFormInputGroupUsername2">Password</label>
+          <label class="sr-only" for="inlineFormInputGroupUsername2">Name</label>
           <div class="mb-2 mb-sm-0">
             <div class="input-group input-group-sm mb-2">
-              <span class="input-group-prepend" id="basic-addon1"><div class="input-group-text"><%= theme_icon_tag "key" %></div></span>
-              <input type="password" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Choose a Password">
+              <input type="text" name="name" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Enter Your Name">
             </div>
           </div>
 
-          <button type="button" class="btn btn-primary ml-auto">Sign Up</button>
-        </form>
+          <button class="btn btn-primary ml-auto">Sign Up</button>
+        <% end %>
       </div>
+
     </div>
 
   </div>
