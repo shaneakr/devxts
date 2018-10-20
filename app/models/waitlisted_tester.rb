@@ -1,0 +1,2 @@
+class WaitlistedTester < ApplicationRecord
+end

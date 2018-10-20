@@ -12,32 +12,51 @@
 
     <div class="row">
       <div class="col-12 col-md-7 ml-md-auto mr-md-auto text-center text-white mt-5">
-        <h1 class="text-shadow-light leading-normal">You'll never have to work again</h1>
-        <p class="lead font-weight-medium mt-5 text-shadow-light">PYRMID is the ultimate in trans-human enhancement. Neural lace interface of the finest quality.</p>
-        <a class="btn btn-lg btn-circle btn-outline-light text-white text-hover-dark" href="javascript:">Find out More</a>
+        <h1 class="text-shadow-light leading-normal">Get Paid To Build Your Portfolio</h1>
+        <p class="lead font-weight-medium mt-5 text-shadow-light">DevX Testing allows you to build your skills by building projects and providing feedback to companies.</p>
       </div>
+
+    </div>
+    <div class="col-12 col-md-7 ml-md-auto mr-md-auto text-center text-white mt-5">
+    <%= form_tag('/tester/waitlist', {role:"form", class:"inline-form"}) do %>
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputEmail2">Name</label>
+        <input type="text" name="name" class="form-control mr-2" id="exampleInputEmail2" placeholder="Enter name">
+      </div>
+      <div class="form-group">
+        <div class="input-group">
+          <div class="input-group-prepend"><div class="input-group-text">@</div></div>
+          <input class="form-control mr-2" type="email" name="email" placeholder="Enter email">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-7 ml-md-auto mr-md-auto text-center text-white mt-5">
+          <button class="btn btn-lg btn-circle btn-outline-light text-white text-hover-dark">Sign Up for the Waitlist</button>
+        </div>
+      </div>
+    <% end %>
     </div>
     <div class="row mt-5 pt-5 pb-5">
       <div class="col-12 col-md-4 text-center text-white">
         <div class="bg-circle mb-4">
           <%= theme_icon_tag "eye", class: "text-opacity-9 display-3" %>
         </div>
-        <h5>Amazing Feature</h5>
-        <p class="small px-5 text-opacity-8">Ipsum aliquam earum nesciunt officia accusantium optio aliquid enim quasi numquam sunt autem? Omnis odio earum aspernatur reprehenderit ab? </p>
+        <h5>Start with Project Templates</h5>
+        <p class="small px-5 text-opacity-8">DevX Testing with provide you with some project ideas and help to get you started. Getting debugging help from a thriving community.</p>
       </div>
       <div class="col-12 col-md-4 text-center text-white">
         <div class="bg-circle text-white mb-4">
           <%= theme_icon_tag "ticket", class: "display-3" %>
         </div>
-        <h5>Amazing Feature</h5>
-        <p class="small px-5 text-opacity-8">Ipsum aliquam earum nesciunt officia accusantium optio aliquid enim quasi numquam sunt autem? Omnis odio earum aspernatur reprehenderit ab? </p>
+        <h5>Learn New Skills and Technologies</h5>
+        <p class="small px-5 text-opacity-8">Gain real hands on experience with the latest technologies. Learn to communicate and build better documentation.</p>
       </div>
       <div class="col-12 col-md-4 text-center text-white">
         <div class="bg-circle text-white mb-4">
           <%= theme_icon_tag "pulse", class: "display-3" %>
         </div>
-        <h5>Amazing Feature</h5>
-        <p class="small px-5 text-opacity-8">Ipsum aliquam earum nesciunt officia accusantium optio aliquid enim quasi numquam sunt autem? Omnis odio earum aspernatur reprehenderit ab? </p>
+        <h5>Make The World Better For All Developers</h5>
+        <p class="small px-5 text-opacity-8">Documentation and developer experience is notoriously bad. Contribute to the lives of every developer by making it easier and less frustrating to do. </p>
       </div>
     </div>
   </div>
@@ -52,11 +71,11 @@
         <img src="//placeimg.com/600/400/any" class="rounded">
       </div>
       <div class="col-12 col-md-6">
-        <h3>This is an awesome thing here</h3>
-        <p class="lead">Amazing virtues of modern startup capitalism</p>
-        <p>You won't believe what lorem facere maiores corporis architecto magnam sunt expedita et! Ut fuga numquam similique nesciunt dolor. Culpa necessitatibus numquam reprehenderit corporis accusantium numquam doloremque sunt! Error in magnam ipsum temporibus minus.</p>
-        <a class="btn btn-primary" href="javascript:"><%= theme_icon_tag "eye" %> Action 1</a>
-        <a class="btn btn-success" href="javascript:"><%= theme_icon_tag "upload" %> Action 2</a>
+        <h3>Get Paid Per Project You Complete</h3>
+        <p class="lead">Select the projects that match your demographics, skill level and time frame. </p>
+        <p> Work as much or as little as you want. We'll teach you the best way to develop projects and communicate your feedback to companies.</p>
+        <!--<a class="btn btn-primary" href="javascript:"><%= theme_icon_tag "eye" %> Action 1</a>
+        <a class="btn btn-success" href="javascript:"><%= theme_icon_tag "upload" %> Action 2</a>-->
       </div>
     </div>
   </div>
@@ -65,11 +84,10 @@
   <div class="container content-block-1 py-5 mt-5 mb-5">
     <div class="row">
       <div class="col-12 col-md-6">
-        <h3>This is an awesome thing here</h3>
-        <p class="lead">Amazing virtues of modern startup capitalism</p>
-        <p>You won't believe what lorem facere maiores corporis architecto magnam sunt expedita et! Ut fuga numquam similique nesciunt dolor. Culpa necessitatibus numquam reprehenderit corporis accusantium numquam doloremque sunt! Error in magnam ipsum temporibus minus.</p>
-        <a class="btn btn-primary" href="javascript:"><%= theme_icon_tag "eye" %> Action 1</a>
-        <a class="btn btn-success" href="javascript:"><%= theme_icon_tag "upload" %> Action 2</a>
+        <h3>Add Your Project To Github and Build Your Resume</h3>
+        <p class="lead">Get hands on experience</p>
+        <p> It can be hard to build projects from scratch let us help you get started and build your skills to show off to employers.</p>
+
       </div>
       <div class="co-12 col-md-5 ml-md-auto">
         <img src="//placeimg.com/600/400/any" class="rounded">
@@ -84,20 +102,25 @@
         <img class="mb-3 mb-md-0" src="//placeimg.com/800/600" height="510px">
       </div>
       <div class="col-12 col-md-5 mx-md-auto">
-        <h2 class="leading-normal">Ultime fantastic nightstand reproduction</h2>
-        <p class="lead">Dolor obcaecati at nesciunt quibusdam sed nesciunt quibusdam repellendus, ab reprehenderit. Ea tempore voluptas esse qui eius consequuntur! </p>
-        <a class="d-table btn btn-outline-primary btn-border-2x" href="javascript:">See the demo</a>
+        <h2 class="leading-normal">What Do You Need To Get Started?</h2>
+        <p class="lead">Signup is quick and easy. Just enter your email address on this page and complete a sample test. Once you’re approved, start taking real tests and earning real money!  </p>
 
         <div class="row no-gutters mt-5">
           <div class="col-12 col-md-5">
-            <h6 class="font-weight-normal">Cats on the roof</h6>
-            <p class="small text-muted">Ipsum quaerat officia accusantium totam aliquid. Facere quaerat fugiat nostrum debitis officia? Tempore repudiandae eaque expedita quisquam nisi?</p>
+            <p class="font-weight-normal">- A PC or Mac, an internet connection</p>
           </div>
           <div class="col-12 col-md-5 ml-md-auto">
-            <h6 class="font-weight-normal">Cats on the roof</h6>
-            <p class="small text-muted">Ipsum quaerat officia accusantium totam aliquid. Facere quaerat fugiat nostrum debitis officia? Tempore repudiandae eaque expedita quisquam nisi?</p>
+            <p class="font-weight-normal"> - Ability to write your thoughts in English</p>
           </div>
+          <div class="col-12 col-md-5">
+            <p class="font-weight-normal">- You must be at least 18 years old or have parental consent</p>
+          </div>
+          <div class="col-12 col-md-5 ml-md-auto">
+            <p class="font-weight-normal">- Be really excited to code!</p>
+          </div>
+
         </div>
+        <a class="d-table btn btn-outline-primary btn-border-2x" href="javascript:">See the demo</a>
       </div>
     </div>
   </div>
@@ -108,37 +131,25 @@
       <div class="col-12 d-flex flex-wrap align-items-center justify-content-between text-white">
         <div class="cta-body">
           <h5 class="m-0">Try it for free</h5>
-          <p class="lead m-0">Already using MyApp? <a href="#" class="text-success">Sign in.</a></p>
+          <p class="lead m-0">Already using DevX Testing? <a href="#" class="text-success">Sign in.</a></p>
         </div>
         <a class="btn btn-success btn-lg text-uppercase d-table" href="javascript:">Get Started</a>
       </div>
     </div>
   </div>
 </section>
-<section class="bg-white py-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 d-flex flex-column flex-wrap align-items-center justify-content-center p-5">
-        <div class="border border-info border-2x btn-lg text-uppercase">
-          <h4 class="m-0">Made with <%= theme_icon_tag "heart" %> in Victoria, BC</h4>
-        </div>
-        <h6 class="text-center pt-5">Ipsum soluta labore! Assumenda!</h6>
-        <div class="btn btn-success">Sign up Now</div>
-      </div>
-    </div>
-  </div>
-</section>
 
-<footer class="bg-dark">
+
+<footer class="bg-gray-dark">
   <div class="container">
-    <div class="row no-gutter bg-dark p-5">
+    <div class="row no-gutter bg-gray-dark p-5">
       <div class="col-12 col-md-2">
         <div class="d-flex flex-column flex-wrap align-items-start justify-content-center">
           <img src="<%= image_path('rrt/pyrrmid_64.png') %>" class="mb-3" width="64" height="64" >
-          <h6 class="text-white">PYRMID</h6>
+          <h6 class="text-primary">DevX Testing</h6>
         </div>
       </div>
-      <div class="col-12 col-md-10 ml-md-auto text-white">
+      <div class="col-12 col-md-10 ml-md-auto text-primary">
         <div class="row">
           <div class="col-12 col-md-3">
             <h6>NAVIGATION</h6>
@@ -175,9 +186,9 @@
         </div>
       </div>
     </div>
-    <div class="row no-gutter bg-dark p-4">
+    <div class="row no-gutter bg-gray-dark p-4">
       <div class="col-12 text-center">
-        <p class="small text-muted m-0">&copy; 2017 &dash; PYRMID INC</p>
+        <p class="small text-muted m-0">&copy; 2018 &dash; DevX Testing INC</p>
       </div>
     </div>
   </div>
