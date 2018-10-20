@@ -1,0 +1,12 @@
+.form-control::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+.form-control {
+    border-color: white;
+}
+
+.input-group-text.text-white {
+    border-color: white;
+}
