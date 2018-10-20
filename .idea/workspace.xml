@@ -4,7 +4,6 @@
     <list default="true" id="23934309-6282-499b-acad-1dba06e4b0fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app/views/content_blocks/landing_navs/_1.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/content_blocks/landing_navs/_1.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/testers.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/testers.html.erb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -51,7 +50,7 @@
         <counts>
           <entry key="Gemfile" value="28" />
           <entry key="css" value="23" />
-          <entry key="erb" value="4390" />
+          <entry key="erb" value="4410" />
           <entry key="gitignore" value="7" />
           <entry key="rb" value="645" />
           <entry key="yml" value="8" />
@@ -61,7 +60,7 @@
         <counts>
           <entry key="CSS" value="23" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="RHTML" value="4390" />
+          <entry key="RHTML" value="4410" />
           <entry key="Ruby" value="673" />
           <entry key="YAML" value="8" />
         </counts>
@@ -100,8 +99,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+            <state relative-caret-position="318">
+              <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
               <folding>
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
               </folding>
@@ -157,8 +156,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/content_blocks/landing_navs/_1.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="15">
+              <caret line="1" column="189" selection-start-line="1" selection-start-column="189" selection-end-line="1" selection-end-column="189" />
             </state>
           </provider>
         </entry>
@@ -208,8 +207,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/testers.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/content_blocks/landing_navs/_1.html.erb" />
       </list>
     </option>
@@ -475,12 +474,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539993159186</updated>
-      <workItem from="1539993160539" duration="24417000" />
+      <workItem from="1539993160539" duration="25000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24417000" />
+    <option name="totallyTimeSpent" value="25000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1531" y="-11" width="1531" height="1337" extended-state="0" />
@@ -714,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        <state relative-caret-position="318">
+          <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#nav#0;n#div#0;n#div#0;n#main#0;n#!!top" expanded="true" />
           </folding>
@@ -731,8 +730,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/content_blocks/landing_navs/_1.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="15">
+          <caret line="1" column="189" selection-start-line="1" selection-start-column="189" selection-end-line="1" selection-end-column="189" />
         </state>
       </provider>
     </entry>
