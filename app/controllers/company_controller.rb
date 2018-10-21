@@ -5,7 +5,7 @@ class CompanyController < ApplicationController
     if company
       flash[:notice] = "Thank you for your interest!"
     else
-      flash[:warning] = "Oops! Something went wrong. Please try again soon."
+      flash[:notice] = "Oops! Something went wrong. Please try again soon."
     end
 
     redirect_to root_path
