@@ -12,6 +12,7 @@ source "https://gems.rapidrailsthemes.com/gems" do
 gem 'rails', '~> 5.1.6'
 
 gem 'pg'
+gem 'devise'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
