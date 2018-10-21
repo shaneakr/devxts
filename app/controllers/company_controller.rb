@@ -1,6 +1,12 @@
 class CompanyController < ApplicationController
   def waitlist
-    Company.create name: params[:name], email: params[:email]
+    company = Company.create name: params[:name], email: params[:email]
+
+    if company
+      flash[:notice] = "Thank you for your interest!"
+    else
+      flash[:warning] = "Oops! Something went wrong. Please try again soon."
+    end
 
     redirect_to root_path
   end

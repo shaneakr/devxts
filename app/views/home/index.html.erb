@@ -43,6 +43,9 @@
       </div>
       <div class="col-12 col-md-5 mt-5 pt-5 pb-5">
         <%= form_tag('/company/waitlist', {class:"form d-flex flex-column bg-white p-4"}) do %>
+          <% if flash[:notice] %>
+            <p class="text-center" style="color:green;font-weight:bold;"><%= flash[:notice] %></p>
+          <% end %>
           <p class="text-center">Get started in minutes, sign up now</p>
           <label class="sr-only" for="inlineFormInputName2">Email</label>
 
