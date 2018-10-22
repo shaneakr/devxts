@@ -6,4 +6,7 @@ class HomeController < ApplicationController
   def testers
     
   end
+  def project_start
+
+  end
 end

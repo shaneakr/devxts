@@ -10,7 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181020163728) do
+ActiveRecord::Schema.define(version: 20181021165114) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "companies", force: :cascade do |t|
     t.string "name"
@@ -20,6 +23,26 @@ ActiveRecord::Schema.define(version: 20181020163728) do
     t.datetime "updated_at", null: false
     t.boolean "trialed"
     t.index ["email"], name: "index_companies_on_email", unique: true
+  end
+
+  create_table "projects", force: :cascade do |t|
+    t.string "title"
+    t.text "description"
+    t.text "goal"
+    t.text "document"
+    t.text "test_device"
+    t.integer "test_age_start"
+    t.integer "test_age_end"
+    t.integer "test_income_start"
+    t.integer "test_income_end"
+    t.string "test_gender"
+    t.string "test_country"
+    t.string "test_specialities"
+    t.integer "num_testers_start"
+    t.integer "num_testers_end"
+    t.date "test_end_date"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "waitlisted_testers", force: :cascade do |t|

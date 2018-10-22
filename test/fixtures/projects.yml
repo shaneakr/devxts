@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  description: MyText
+  goal: MyText
+  document: MyText
+  test_devise: MyText
+  test_age_start: 
+  test_age_end: 
+  test_income_start: 
+  test_income_end: 
+  test_gender: MyString
+  test_country: MyString
+  test_specialities: MyString
+  num_testers_start: 
+  num_testers_end: 
+  test_end_date: 2018-10-21
+
+two:
+  title: MyString
+  description: MyText
+  goal: MyText
+  document: MyText
+  test_devise: MyText
+  test_age_start: 
+  test_age_end: 
+  test_income_start: 
+  test_income_end: 
+  test_gender: MyString
+  test_country: MyString
+  test_specialities: MyString
+  num_testers_start: 
+  num_testers_end: 
+  test_end_date: 2018-10-21
