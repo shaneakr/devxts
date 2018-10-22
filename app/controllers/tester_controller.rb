@@ -1,6 +1,10 @@
 class TesterController < ApplicationController
   def waitlist
-    tester = WaitlistedTester.create name: params[:name], email: params[:email]
+
+    # fetch the existing row by email, or create one if none exists
+    tester = WaitlistedTester.
+        where(email: params[:email]).
+        first_or_create(name: params[:name])
 
     if tester
       flash[:notice] = "Thank you for your interest!"

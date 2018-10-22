@@ -1,6 +1,9 @@
 class CompanyController < ApplicationController
   def waitlist
-    company = Company.create name: params[:name], email: params[:email]
+    # fetch the existing row by email, or create one if none exists
+    company = Company.
+        where(email: params[:email]).
+        first_or_create(name: params[:name])
 
     if company
       flash[:notice] = "Thank you for your interest!"
